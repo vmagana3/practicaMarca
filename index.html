@@ -6,38 +6,253 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+
+  <!--------------------------------- Barra de navegación superior ----------------------------------------------->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedConten" aria-controls="navbarSupportedConten" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
+        Menú 1
   		</button>
 
 
-  		<div class="collapse navbar-collapse row" id="navbarSupportedContent">
+  		<div class="collapse navbar-collapse row" id="navbarSupportedConten">
 
-  			<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-  				<img src="img/logoMarca.png" alt="">
+  			<div class="col-lg-2 col-md-12 col-sm-12 border-right col-xs-12 pl-5 pt-2">
+  				<img src="img/cuidateplus.svg" alt="" width="45px" height="45px">
+          <p style="display: inline-block;">Cuidate Plus</p>
    			 </div>
 
-   			 <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+   			 <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 pl-5 pt-2">
    			 	<div>
-   			 		<img src="img/cuidateplus.svg" alt="" width="50px" height="50px">
-   			 		<p style="display: inline-block;">Cuidate Plus</p>
+   			 		<img src="img/trending.svg" width="45px" height="45px" alt="">
+            <p style="display: inline-block;">Lo + trending</p>
    			 	</div>
    			 </div>
 
-   			 <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+   			 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 pl-5">
    			 	<div>
-   			 		<img src="img/trending.svg" width="50px" height="50px" alt="">
-   			 		<p style="display: inline-block;">Lo + trending</p>
+            <img class="pl-5" src="img/logoMarca.png" alt="">
    			 	</div>
+   			 </div>
+
+   			 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 pl-5">
+           <ul class="navbar-nav" style="display: inline-block;">
+             <li class="nav-item dropdown pl-5">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="img/Mexico.png" alt="">
+                MX
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">ES(España)</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">US(EUA)</a>
+              </div>
+            </li>
+           </ul>
+
+           <button type="button" class="btn btn-danger btn-sm ml-3">Suscríbete</button>
+
+           <button type="button" class="btn btn-outline-danger btn-sm ml-3">Iniciar Sesión</button>
    			 	
    			 </div>
 
-   			 <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-   			 	<p>Hola</p>
-   			 </div>
   		</div>
 	</nav>
+
+    <!--------------------------------- Barra de navegación secundaria ----------------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-light font-weight-bold" style="background-color: #c00; ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    Menú 2
+  </button>
+
+  <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item dropdown ml-">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Futbol
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown ml-">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Fútbol Internacional
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown ml-">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Motor
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+    
+      <li class="nav-item dropdown ml-">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Otros deportes
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+      <li class="nav-item ml- font-weight-normal">
+        <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        #Lima 2019
+        </a>
+      </li>
+
+
+      <li class="nav-item  font-weight-normal">
+        <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Resultados
+        </a>
+      </li>
+
+      <li class="nav-item  font-weight-bold">
+        <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Más +
+        </a>
+      </li>
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0 mr-4">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar en Marca.com" aria-label="Search">
+    </form>
+  </div>
+</nav>
+
+
+
+
+    <!--------------------------------- Barra de equipos ----------------------------------------------->
+
+    <div class="container-fluid" >
+
+      <div class="container mt-2">
+
+        <div class="row">
+
+          <div class="col-md-3 col-sm-12 pr-0 bg-dark">
+            <img src="img/america.png" alt="" width="30%" height="30px" class="mr-3 ml-1">
+            <img src="img/atlas.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/chivas.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/cruzazul.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/leon.png" alt="" width="30px" height="30px" class="ml-1">
+          </div>
+
+          <div class="col-md-3 col-sm-12 pr-0 bg-warning">
+            <img src="img/morelia.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/necaxa.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/pachuca.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/puebla.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/pumas.png" alt="" width="30px" height="30px" class="ml-1">
+          </div>
+
+
+          <div class="col-md-3 col-sm-12 pr-0 bg-primary">
+            <img src="img/queretaro.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/san luis.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/santos.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/tigres.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/tijuana.png" alt="" width="30px" height="30px" class="ml-1">
+          </div>
+
+          <div class="col-md-3 col-sm-12 pr-0 bg-dark">
+            <img src="img/veracruz" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/juarez.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/toluca.png" alt="" width="30px" height="30px" class="mr-3 ml-1">
+            <img src="img/veracruz.png" alt="" width="30px" height="30px" class="ml-1">
+          </div>
+      </div>
+    </div>
+  </div> 
+
+
+
+    <!--------------------------------- Barra de equipos ----------------------------------------------->
+
+    <div class="container bg-dark mt-5">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ullam magni repellendus non distinctio laborum incidunt fugit neque possimus, quam, nihil similique officia, facere iure, dolor? Corrupti consectetur non magnam laborum nam minima repellat odit aspernatur quaerat quam ipsa esse obcaecati eum animi ratione illo, ea voluptatem dolor aliquam assumenda! Alias sed at quod facilis nostrum doloribus numquam sit quae repudiandae cum beatae, dolores quas officiis, laboriosam velit temporibus voluptatibus in nisi iusto. Magni rem molestias odit inventore repudiandae ad cumque sed earum officia fugit, necessitatibus ducimus consequuntur quam ratione repellat ut autem veniam in? Assumenda, tempora omnis cupiditate illum?.</p>
+    </div>
+
+
+    <div class="container bg-dark">
+      <div class="row">
+
+        <div class="col-md-7 bg-primary">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque recusandae animi a aut eveniet repellendus numquam officia distinctio reprehenderit quidem quam tempore veniam quae nesciunt, quo explicabo. Obcaecati, voluptas, expedita.</p>
+        </div>
+
+        <div class="col-md-5 row">
+
+          <div class="col-md-12 row">
+            <div class="col-md-6">
+              <img src="img/fut.jpg" width="100%" alt="">
+            </div>
+
+            <div class="col-md-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+
+          <div class="col-md-12 row">
+            <div class="col-md-6">
+              <img src="img/fut.jpg" width="100%" alt="">
+            </div>
+
+            <div class="col-md-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+
+          <div class="col-md-12 row">
+            <div class="col-md-6">
+              <img src="img/fut.jpg" width="100%" alt="">
+            </div>
+
+            <div class="col-md-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+          
+          
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+        
+        
+        
+        
+
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
